@@ -1,0 +1,6 @@
+nombres;apellidos;tipo_contrato;identificacion;tipo_identificacion;alerta;edad;fecha_creacion;ciudad_nacimiento
+HERNANDO;ROJAS;RL;12345;CC;SI;55;2016-06-12;Medellin
+Juan;Perez;N/A;28928;NIT;INCONSISTENCIA;23;2016-06-12;Itagui
+ALVARO;SOLANO;SC;987654;CC;INCONSISTENCIA;65;2016-06-12;Medellin
+Luis;García;SC;987654;CC;INCONSISTENCIA;19;2016-06-12;Bello
+William;Casas;N/A;1017200335;CC;NO;25;2017-09-23;Medellin
