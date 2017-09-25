@@ -1,53 +1,23 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+Prueba Técnica Programación Básica Web.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Prueba técnica Programación Web
+La empresa A necesita para su proceso interno la creación de una aplicación que permita cargar información sobre sus clientes y realizar una verificación y posterior envío de datos a través de correo electrónico.
+Descripción del proceso:
+1. El usuario realiza el login
+2. El usuario carga los clientes que debe analizar a través de un archivo de texto que se adjunta con la prueba. Este es un archivo CSV delimitado por punto y coma (;)
+3. Los clientes cargados se deben visualizar y se debe permitir la edición de los campos:
+1. Nombre
+2. Identificación
+3. Perfil
+3. Después que el usuario realice las modificaciones el sistema debe guardar los datos y permitir la descarga de esos datos en formato pdf y Excel.
+4. La aplicación debe tener una opción para enviar el pdf y el excel creado a un correo electrónico
 
-## About Laravel
+Puntos adicionales (Plus - OPCIONALES)
+1. Exponer un web service REST para la consulta de los registros que están en el sistema.
+2. La aplicación cuente con estándares mínimos de seguridad xls cleaning, etc
+3. Verificación de campos, tipos de datos, longitudes, etc.
+4. Realizar pruebas unitarias
+5. Aplicar principios de diseño SOLID
+6. Crear un buscador de los registros que están ingresados en el sistema y la interfaz de visualización y edición para estos.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
-
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
-
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Para la realización de esta prueba, debe utilizar el lenguaje de programación PHP y además algún framework para acelerar el desarrollo. Se revisará estabilidad, manejo de errores e interfaz gráfica.
